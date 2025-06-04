@@ -20,6 +20,15 @@ body {
     padding: 5px 0;
 }
 
+.completed span {
+    text-decoration: line-through;
+    color: #777;
+}
+
 .task button {
     margin-left: 10px;
+}
+
+#clear-completed {
+    margin-top: 10px;
 }

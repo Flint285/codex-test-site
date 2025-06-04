@@ -35,6 +35,7 @@ function renderTasks() {
 
         const editBtn = document.createElement('button');
         editBtn.textContent = 'Edit';
+        editBtn.className = 'edit-btn';
         editBtn.addEventListener('click', () => {
             const newText = prompt('Edit task', task.text);
             if (newText !== null) {
@@ -46,6 +47,7 @@ function renderTasks() {
 
         const removeBtn = document.createElement('button');
         removeBtn.textContent = 'Remove';
+        removeBtn.className = 'remove-btn';
         removeBtn.addEventListener('click', () => {
             tasks.splice(index, 1);
             saveTasks();

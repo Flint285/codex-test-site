@@ -52,6 +52,11 @@ button:hover {
 
 #add-task {
     border-radius: 0 4px 4px 0;
+    background-color: #add8e6;
+}
+
+#add-task:hover {
+    background-color: #9ac6d8;
 }
 
 #task-list {
